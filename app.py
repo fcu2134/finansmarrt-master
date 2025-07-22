@@ -34,8 +34,8 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SECRET_KEY'] = 'secreto2'
 @app.route('/')
 def inicio():
-    return render_template('login.html')  # Asegúrate de tener inicio.html
-
+    formulario = FormularioInicioSesion()
+    return render_template('login.html', formulario=formulario)
 db.init_app(app)
 from modelos import Usuario, Categoria, Transaccion
 #esto crea una instancaidel manejador de sesiones del usuario ,conecta con la aplicacion flask,y define la vista que se mostrara primero

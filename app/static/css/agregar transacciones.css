@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+.navbar {
+  background-color: #0668ca;
+  padding: 1rem 2rem;
+  color: white;
+}
+
+.container-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.marca {                                                                    
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+}
+
+.btn-volver {
+  background-color: white;
+  color: #114477;
+  padding: 0.5rem 1rem;                                                                     
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn-volver:hover {
+  background-color: #ddd;
+}
+
+.formulario-container {
+  background: white;
+  max-width: 500px;
+  margin: 3rem auto;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.formulario-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.campo {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.campo label {
+  margin-bottom: 0.3rem;
+  font-weight: 500;
+}
+
+.input {
+  padding: 0.7rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+
+.input:focus {
+  border-color: #114477;
+  outline: none;
+}
+
+.error {
+  color: #d8000c;
+  font-size: 0.9rem;
+  margin-top: 0.3rem;
+}
+
+.btn-enviar {
+  background-color: #114477;
+  color: white;
+  padding: 0.8rem;
+  border: none;
+  width: 100%;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-enviar:hover {
+  background-color: #0d355e;
+}
+
+.alerta {
+  margin: 1rem auto;
+  max-width: 500px;
+  padding: 1rem;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.alerta.success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.alerta.info {
+  background-color: #d1ecf1;
+  color: #0c5460;
+}
