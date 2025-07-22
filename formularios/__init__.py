@@ -1,0 +1,4 @@
+from .formulario_registro import FormularioRegistro
+from .formulario_inicio_Sesion import FormularioInicioSesion
+from .formulario_categoria import FormularioCategoria
+from .formulario_transaccion import FormularioTransaccion
